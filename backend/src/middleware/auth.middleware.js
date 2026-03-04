@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import User from "../models/user.model.js";
-import { useDeferredValue } from "react";
+
 
 export const protectRoute = async (req, res, next) => {
     try {
